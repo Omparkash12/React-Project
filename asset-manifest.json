@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/React-Project/static/css/main.18048c8c.css",
+    "main.js": "/React-Project/static/js/main.b533d839.js",
+    "static/js/787.5c20d500.chunk.js": "/React-Project/static/js/787.5c20d500.chunk.js",
+    "static/media/kirtanImg1.png": "/React-Project/static/media/kirtanImg1.7cca39ef7b8cc576ab7e.png",
+    "static/media/kirtanImg2.png": "/React-Project/static/media/kirtanImg2.3275163d4f1a8fe68740.png",
+    "static/media/instagram.svg": "/React-Project/static/media/instagram.82a00ecc5548eb5394b5e9b246f1e600.svg",
+    "static/media/twitter.svg": "/React-Project/static/media/twitter.1b229e099dfd13e42a187077b6a64027.svg",
+    "static/media/musicNavIcon.svg": "/React-Project/static/media/musicNavIcon.325512e06f9db93eaae57a00bf50677c.svg",
+    "static/media/fb.svg": "/React-Project/static/media/fb.f0a0dad57e74e70e5068ec27872792f1.svg",
+    "static/media/email.svg": "/React-Project/static/media/email.1b2bf55875e123f317a679d38eb11874.svg",
+    "static/media/youtube.svg": "/React-Project/static/media/youtube.4fdfe5effb36b54c3602d37c0366c559.svg",
+    "static/media/linkedIn.svg": "/React-Project/static/media/linkedIn.b648363f81aa97a0894ff76ad271ea78.svg",
+    "index.html": "/React-Project/index.html",
+    "static/media/trackIcon.svg": "/React-Project/static/media/trackIcon.14af3bc776fff1f09b037ae1b006ed13.svg",
+    "static/media/accordionArrow.svg": "/React-Project/static/media/accordionArrow.6a76dfd3b4ddf562316f.svg",
+    "static/media/lineImg.svg": "/React-Project/static/media/lineImg.f82249ad7f100ed8fcfc17adc6456d99.svg",
+    "static/media/raagNavArrow.svg": "/React-Project/static/media/raagNavArrow.22f31afa73bee9617b73d9d52fe42fef.svg",
+    "static/media/navDropdownArrow.svg": "/React-Project/static/media/navDropdownArrow.6ceeb091179fb7a7dfa5.svg",
+    "static/media/radioTick.svg": "/React-Project/static/media/radioTick.8210332e9f77935798b5.svg",
+    "main.18048c8c.css.map": "/React-Project/static/css/main.18048c8c.css.map",
+    "main.b533d839.js.map": "/React-Project/static/js/main.b533d839.js.map",
+    "787.5c20d500.chunk.js.map": "/React-Project/static/js/787.5c20d500.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18048c8c.css",
+    "static/js/main.b533d839.js"
+  ]
+}
