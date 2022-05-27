@@ -1,0 +1,314 @@
+.trackLine {
+    width: 100%;
+    height: 3px;
+    background: #000;
+    border-radius: 2px;
+    margin: 1rem 0;
+}
+
+.traLine1 {
+    width: 60%;
+    height: 5px;
+    background: #B68A1E;
+    border-radius: 2px;
+    position: relative;
+}
+
+.traLine1::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #B68A1E;
+    border-radius: 12px;
+    left: 98%;
+    top: -5px;
+}
+
+.musicIcons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.trackPlayerBG {
+    background: #FFF3D7;
+}
+
+.musicPlayer1 {
+    padding: 1rem 0;
+}
+
+.musicText h3 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.musicText h4 {
+    font-family: 'Nirmala UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+}
+
+.optionDots {
+    cursor: pointer;
+}
+
+.shuffle,
+.trackDownload {
+    background: transparent;
+    border: none;
+}
+
+.topBorder {
+    border-top: 4px solid #B68A1E;
+}
+
+
+
+
+
+
+
+/* MusicPlayerSection 2 */
+
+.musicPlayer2 {
+    padding: 1.5rem 0;
+}
+
+.musicIcon1 {
+    background: transparent;
+    border: none;
+}
+
+.audiodata {
+    display: flex;
+    align-items: center;
+}
+
+.audioMiddle {
+    padding: 16px 0;
+}
+
+.audiodata img {
+    width: 50px;
+    padding-right: 12px;
+}
+
+
+
+
+
+/* radio Button */
+.LanguageSection {
+    background: #2C203F;
+    border-radius: 15px 15px 0 0;
+    transform: translateY(100%);
+    transition: 1s;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.languageData {
+    padding: 3rem 0;
+}
+
+.radioBtn .form-check-input {
+    width: 27px;
+    height: 26px;
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 2px solid #fff;
+    appearance: none;
+}
+
+.radioBtn .form-check-input:checked[type=radio] {
+    background-image: url(../../Images/radioTick.svg)
+}
+
+.radioBtn .form-check-input:checked {
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.radioBtn .form-check-input[type=radio] {
+    border-radius: 0%;
+}
+
+.radioBtn .form-check {
+    display: flex;
+    min-height: 1.5rem;
+    margin-bottom: 0;
+    flex-direction: row;
+    align-items: center;
+    margin: 2rem;
+}
+
+.radioBtn label {
+    display: inline-block;
+}
+
+.radioBtn .form-check-input:focus {
+    border-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
+}
+
+.radioBtn span svg {
+    min-width: 40px;
+    margin: 0 1rem;
+}
+
+.languageHeading h2 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 38px;
+    color: #fff;
+    padding-top: 1rem;
+    margin: 0;
+}
+
+
+.closeBtn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: none;
+    color: #fff;
+    width: 149px;
+    height: 35px;
+    background: #B68A1E;
+    border-radius: 5px;
+    border: none;
+}
+
+/* .MusicPlayer {
+    scroll-behavior: inherit;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: white;
+} */
+
+.MusicPlayer {
+    position: absolute;
+    bottom: -3%;
+    width: 100%;
+    background: white;
+}
+
+@media (max-width: 768px) {
+    .trackLine {
+        width: 100%;
+        height: 3px;
+        background: #000;
+        border-radius: 2px;
+        margin: 1rem 0;
+    }
+
+    .traLine1 {
+        width: 60%;
+        height: 5px;
+        background: #B68A1E;
+        border-radius: 2px;
+        position: relative;
+    }
+
+    .traLine1::before {
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background: #B68A1E;
+        border-radius: 12px;
+        left: 98%;
+        top: -5px;
+    }
+
+    .musicIcons {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .trackPlayerBG {
+        background: #FFF3D7;
+    }
+
+    .musicPlayer1 {
+        padding: 1rem 0;
+    }
+
+    .musicText h3 {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+    }
+
+    .musicText h4 {
+        font-family: 'Nirmala UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        margin: 0;
+    }
+
+    .optionDots {
+        cursor: pointer;
+    }
+
+    .shuffle,
+    .trackDownload {
+        background: transparent;
+        border: none;
+    }
+
+    .topBorder {
+        border-top: 4px solid #B68A1E;
+    }
+
+
+    /* MusicPlayerSection 2 */
+
+    .musicPlayer2 {
+        padding: 1.5rem 0;
+    }
+
+    .musicIcon1 {
+        background: transparent;
+        border: none;
+    }
+
+    .audiodata {
+        display: flex;
+        align-items: center;
+    }
+
+    .audioMiddle {
+        padding: 16px 0;
+    }
+
+    .audiodata img {
+        width: 50px;
+        padding-right: 12px;
+    }
+}

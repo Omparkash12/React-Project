@@ -1,0 +1,115 @@
+.searchSection {
+    display: flex;
+    justify-content: space-between;
+    background: #EFEDED;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+input.inputsearch {
+    max-width: 83%;
+    width: 100%;
+    font-size: 16px;
+    padding: 28px 16px;
+    background: #EFEDED;
+    border: none;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+input.inputsearch:focus-visible {
+    outline: none;
+}
+
+button.searchbtn {
+    max-width: 13%;
+    width: 100%;
+    border: none;
+    background: #B68A1E;
+    border-radius: 7px;
+}
+
+.searchpadding {
+    padding: 2rem 0;
+    margin-top: 5rem;
+}
+
+@media (max-width: 768px) {
+    .searchSection {
+        display: flex;
+        justify-content: space-between;
+        background: #EFEDED;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+    }
+
+    input.inputsearch {
+        max-width: 83%;
+        width: 100%;
+        font-size: 16px;
+        padding: 28px 16px;
+        background: #EFEDED;
+        border: none;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+    }
+
+    input.inputsearch:focus-visible {
+        outline: none;
+    }
+
+    button.searchbtn {
+        max-width: 13%;
+        width: 100%;
+        border: none;
+        background: #B68A1E;
+        border-radius: 7px;
+    }
+
+    .searchpadding {
+        padding: 2rem 0;
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    input.inputsearch {
+        padding: 24px 16px;
+    }
+
+    button.searchbtn {
+        max-width: 16%;
+        width: 100%;
+    }
+
+    .searchpadding {
+        padding: 1.5rem 0;
+    }
+}
+
+@media (max-width: 428px) {
+    input.inputsearch {
+        padding: 16px 16px;
+    }
+
+    button.searchbtn {
+        max-width: 18%;
+        width: 100%;
+    }
+
+    button.searchbtn svg {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    input.inputsearch {
+        padding: 12px 16px;
+    }
+
+    button.searchbtn svg {
+        width: 20px;
+        height: 20px;
+    }
+}

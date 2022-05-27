@@ -1,0 +1,69 @@
+.mainText p {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0;
+    padding: 16px 0px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+.mainText{
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .mainText p {
+        font-size: 18px;
+        line-height: 27px;
+        margin: 0;
+        padding: 16px 0px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .mainText{
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .mainText p {
+        font-size: 18px;
+        line-height: 27px;
+        margin: 0;
+        padding: 16px 0px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .boxShadow {
+        padding: 3rem 24px;
+    }
+}
+
+@media (max-width: 428px) {
+    .mainText p {
+        padding: 12px 0px;
+    }
+}
+
+@media (max-width: 375px) {
+    .mainText p {
+        padding: 8px 0px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .boxShadow {
+        padding: 2rem 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .mainText p {
+        padding: 8px 0px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

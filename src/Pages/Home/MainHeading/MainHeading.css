@@ -1,0 +1,76 @@
+.mainHeading h2 {
+    font-size: 26px;
+    line-height: 39px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: #2C203F;
+}
+
+.mainHeading h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    margin: 0;
+    color: #2C203F;
+}
+
+.mainHeading {
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .mainHeading h2 {
+        font-size: 26px;
+        line-height: 39px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        color: #2C203F;
+    }
+    
+    .mainHeading h3 {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 33px;
+        margin: 0;
+        color: #2C203F;
+    }
+}
+
+@media (max-width: 576px) {
+    .headingLine {
+        margin-top: -6px;
+    } 
+}
+
+@media (max-width: 375px) {
+    .mainHeading h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .mainHeading h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .mainHeading {
+        padding: 0;
+    }  
+}
+
+@media (max-width: 320px) {
+    .mainHeading h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .mainHeading h3 {
+        font-size: 16px;
+        line-height: 20px;
+    } 
+}

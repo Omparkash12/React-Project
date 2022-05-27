@@ -1,0 +1,41 @@
+.RaagsListSection h2 {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2C203F;
+    margin: 0;
+    padding-bottom: 12px;    }
+
+.RaagBG {
+    background: #FFFDE1;
+}
+
+.listData{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.RaagList h3 {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    color: #000;
+    margin: 0;
+    padding-left: 16px;
+}
+
+.RaagList {
+    padding: 8px 0;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 428px) {
+    .listData {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+  }

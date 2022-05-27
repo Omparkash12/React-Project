@@ -1,0 +1,125 @@
+
+.RaagNav .playRaag {
+    background: #2C203F;
+    text-align: center;
+    padding: 1rem 0 3rem;
+    margin-top: 3.8rem;
+}
+.RaagNav .playRaag h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    margin: 0;
+    padding: 8px 0 0px;
+    color: #fff;
+}
+.RaagNav a.randomPlay {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 12px 38px;
+    border-radius: 35px;
+    background: #B68A1E;
+    border: none;
+    color: #fff;
+    position: absolute;
+    left: 35%;
+    top: 28.5%;
+}
+.RaagNav a.randomPlay svg {
+    margin-right: 8px;
+}
+.RaagNav a.randomPlay svg path {
+    fill: #fff;
+}
+
+
+
+@media (max-width: 768px) {    
+    .RaagNav .playRaag {
+        background: #2C203F;
+        text-align: center;
+        padding: 1rem 0 3rem;
+        margin-top: 3.8rem;
+    }
+    .RaagNav .playRaag h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 42px;
+        margin: 0;
+        padding: 8px 0 0px;
+        color: #fff;
+    }
+    .RaagNav a.randomPlay {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 12px 38px;
+        border-radius: 35px;
+        background: #B68A1E;
+        border: none;
+        color: #fff;
+        position: absolute;
+        left: 35%;
+        top: 28.5%;
+    }
+    .RaagNav a.randomPlay svg {
+        margin-right: 8px;
+    }
+    .RaagNav a.randomPlay svg path {
+        fill: #fff;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .RaagNav a.randomPlay {
+        position: absolute;
+        left: 30%;
+        /* top: 27%; */
+    }
+}
+
+
+@media (max-width: 428px) {
+    .RaagNav a.randomPlay {
+        position: absolute;
+        left: 23%;
+        /* top: 27%; */
+    }
+}
+
+
+
+
+@media (max-width: 375px) {
+
+    .RaagNav a.randomPlay {
+        position: absolute;
+        left: 20%;
+        /* top: 27%; */
+    }
+
+}
+
+
+
+@media (max-width: 320px) {
+    .RaagNav a.randomPlay {
+        position: absolute;
+        left: 14%;
+        /* top: 27%; */
+    }
+}

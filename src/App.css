@@ -1,0 +1,64 @@
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+
+
+.topBottomPadding{
+    padding: 4rem 0;
+}
+
+.containerDiv {
+    padding: 0 2rem;
+}
+
+a:hover {
+    color: #B68A1E;
+    transition: 0.3s;
+}
+
+.headingPadding {
+    padding-top: 6rem;
+}
+
+
+@media (max-width: 768px) {
+    .containerDiv {
+        padding: 0px 32px;
+    }
+    .topBottomPadding{
+        padding: 4rem 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .containerDiv {
+        padding: 0px 28px;
+    }
+
+    .topBottomPadding{
+        padding: 3rem 0;
+    }
+}
+
+@media (max-width: 428px) {
+    .containerDiv {
+        padding: 0px 24px;
+    }
+
+    .topBottomPadding{
+        padding: 2rem 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .containerDiv {
+        padding: 0px 16px;
+    }
+}
+
+@media (max-width: 320px) {
+}

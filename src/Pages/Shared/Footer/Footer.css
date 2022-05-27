@@ -1,0 +1,24 @@
+.footerBG {
+    background: #2C203F;
+}
+
+h5.copyrightData {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 8px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .footerBG {
+        background: #2C203F;
+    }    
+    h5.copyrightData {
+        margin: 0;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        padding: 8px 0;
+    }    
+}

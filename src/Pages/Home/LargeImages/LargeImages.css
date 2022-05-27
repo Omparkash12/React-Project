@@ -1,0 +1,38 @@
+.largeImg1 img {
+    width: 100%;
+    max-width: 380.75px;
+    height: 411px;
+}
+
+.alllImages {
+    padding: 2rem 0;
+    text-align: center;
+}
+.images1 {
+    padding-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    .largeImg1 img {
+        width: 100%;
+        max-width: 380.75px;
+        height: 411px;
+    }
+
+    .alllImages {
+        padding: 2rem 0;
+        text-align: center;
+    }
+    .images1 {
+        padding-bottom: 2rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .alllImages {
+        padding: 1.5rem 0;
+    }
+    .images1 {
+        padding-bottom: 1.5rem;
+    }
+}

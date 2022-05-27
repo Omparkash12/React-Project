@@ -1,0 +1,141 @@
+.trackTimeLine {
+    width: 100%;
+    height: 2px;
+    background: #c5bbbb;
+    position: relative;
+}
+
+.trackTimeLine:after {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    top: -5px;
+    background: #44a5cd;
+    border-radius: 12px;
+}
+
+.trackMusicControlIcons button svg {
+    width: 16px;
+    fill: #333;
+}
+
+.trackMusicControlIcons button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 25px;
+    border: 1px solid #FFF;
+    background: #fff;
+}
+
+.trackMusicControlIcons button:hover {
+    border: 1px solid #000;
+}
+
+button.nextBtn svg {
+    transform: rotate(180deg);
+}
+
+.staticMusicPlayer {
+    box-shadow: 0px 4px 26px rgb(0 0 0 / 30%);
+    border-radius: 6px;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.staticMusicPlayer p {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.staticMusicPlayer h4 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 768px) {
+    .trackTimeLine {
+        width: 100%;
+        height: 2px;
+        background: #c5bbbb;
+        position: relative;
+    }
+
+    .trackMusicControlIcons button svg {
+        width: 16px;
+        fill: #333;
+    }
+
+    .trackMusicControlIcons button {
+        padding: 8px 12px;
+        border: none;
+        border-radius: 25px;
+        border: 1px solid #FFF;
+        background: #fff;
+    }
+
+    .trackMusicControlIcons button:hover {
+        border: 1px solid #000;
+    }
+
+    button.nextBtn svg {
+        transform: rotate(180deg);
+    }
+
+    .staticMusicPlayer {
+        box-shadow: 0px 4px 26px rgb(0 0 0 / 30%);
+        border-radius: 6px;
+        padding: 2rem;
+        margin-top: 3rem;
+    }
+
+    .staticMusicPlayer p {
+        font-size: 18px;
+        line-height: 27px;
+        margin: 0;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .staticMusicPlayer h4 {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        text-decoration: none;
+        color: #000;
+    }
+
+    p.initialTime {
+        font-size: 14px;
+        padding-right: 24px;
+    }
+
+    p.playedTime {
+        font-size: 14px;
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .staticMusicPlayer {
+        box-shadow: 0px 4px 26px rgb(0 0 0 / 30%);
+        border-radius: 6px;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 768px) {}
