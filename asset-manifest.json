@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Project/static/css/main.18048c8c.css",
-    "main.js": "/React-Project/static/js/main.b827f5c4.js",
+    "main.js": "/React-Project/static/js/main.24b2a8fd.js",
     "static/js/787.5c20d500.chunk.js": "/React-Project/static/js/787.5c20d500.chunk.js",
     "static/media/kirtanImg1.png": "/React-Project/static/media/kirtanImg1.7cca39ef7b8cc576ab7e.png",
     "static/media/kirtanImg2.png": "/React-Project/static/media/kirtanImg2.3275163d4f1a8fe68740.png",
@@ -20,11 +20,11 @@
     "static/media/navDropdownArrow.svg": "/React-Project/static/media/navDropdownArrow.6ceeb091179fb7a7dfa5.svg",
     "static/media/radioTick.svg": "/React-Project/static/media/radioTick.8210332e9f77935798b5.svg",
     "main.18048c8c.css.map": "/React-Project/static/css/main.18048c8c.css.map",
-    "main.b827f5c4.js.map": "/React-Project/static/js/main.b827f5c4.js.map",
+    "main.24b2a8fd.js.map": "/React-Project/static/js/main.24b2a8fd.js.map",
     "787.5c20d500.chunk.js.map": "/React-Project/static/js/787.5c20d500.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.18048c8c.css",
-    "static/js/main.b827f5c4.js"
+    "static/js/main.24b2a8fd.js"
   ]
 }
